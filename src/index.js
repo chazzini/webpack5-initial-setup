@@ -1,1 +1,5 @@
-console.log('Hello from webpack webpack dev server');
+import './main.scss';
+const foo = (name) => {
+    alert(`Hello from webpack ${name}`);
+    console.log('webpack with babel');
+}
